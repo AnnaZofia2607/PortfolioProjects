@@ -1,4 +1,4 @@
----Notes to do with micheal -- Case it is if satament---
+---Notes to do  -- Case it is if satament---
 select top 10 * from CovidDeaths1;
 Select top 10 * from CovidVaccinations1;
 
@@ -7,7 +7,7 @@ from CovidDeaths1;
 
 
 select location,date,total_cases,new_cases,total_deaths,(total_deaths/total_cases)*100
-from CovidDeaths1; --- ask micheal 
+from CovidDeaths1; 
 
 
 select location,date,total_cases,new_cases,total_deaths,population
